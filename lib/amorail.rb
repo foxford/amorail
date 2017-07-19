@@ -47,5 +47,5 @@ module Amorail
     attr_accessor :client
   end
 
-  require 'amorail/engine' if defined?(Rails)
+  require 'amorail/railtie' if defined?(Rails)
 end
